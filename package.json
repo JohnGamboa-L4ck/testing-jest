@@ -1,0 +1,31 @@
+{
+  "name": "testing-jest",
+  "version": "1.0.0",
+  "description": "The Odin Project - PROJECT: TESTING PRACTICE",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnGamboa-L4ck/testing-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnGamboa-L4ck/testing-jest/issues"
+  },
+  "homepage": "https://github.com/JohnGamboa-L4ck/testing-jest#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.1.0"
+  }
+}
