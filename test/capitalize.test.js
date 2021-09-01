@@ -1,5 +1,5 @@
-import sum from '../js/capitalize';
+import capitalize from '../js/capitalize';
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+test('Capitalize the first Letter', () => {
+    expect(capitalize('visual')).toBe('Visual');
 });
