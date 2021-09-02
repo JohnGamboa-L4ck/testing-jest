@@ -1,3 +1,11 @@
-const sum = (a, b) => a + b;
+const reverseString = (string) => {
+    if (!string && string !== 0) return 'falsy';
 
-export default sum;
+    const array = string.toString().split(' ').reverse();
+    const mappedArray = array
+        .map((word) => word.split('').reverse().join(''));
+
+    return mappedArray.join(' ');
+};
+
+export default reverseString;

@@ -1,6 +1,11 @@
 const capitalize = (string) => {
-    if (typeof string !== 'string') return '';
-    return string.charAt(0).toUpperCase() + string.slice(1);
+    if (string === undefined) return undefined;
+
+    const array = string.split(' ');
+    const mappedArray = array
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1));
+
+    return mappedArray.join(' ');
 };
 
 export default capitalize;
